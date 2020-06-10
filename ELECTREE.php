@@ -2,6 +2,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <?php
+    include "header.php"
+    ?>
     <div>
         <?php
         // Bobot Kriteria
@@ -241,7 +244,7 @@
     <!-- Matrix Corcondance C -------------------------->
     <h3><b>Matrix Concordance C</b></h3>
     <table class="table table-bordered" border="1">
-    <tr style="background-color: aqua">
+    <tr>
         <th>C</th>
         <th>A1</th>
         <th>A2</th>
@@ -273,7 +276,7 @@
     <!-- Matrix Dominan Corcondance F ----------------------->
     <h3>Matrix Dominan Concordance F</h3>
     <table class="table table-bordered" border="1">
-    <tr style="background-color: aqua">
+    <tr>
         <th>F</th>
         <th>A1</th>
         <th>A2</th>
@@ -564,7 +567,7 @@
     <!-- Matrix Agresi E ----------------------->
     <h3><b>Matrix Agresi E</b></h3>
     <table class="table table-bordered" border="1">
-    <tr style="background-color: aqua">
+    <tr">
         <th>E</th>
         <th>A1</th>
         <th>A2</th>

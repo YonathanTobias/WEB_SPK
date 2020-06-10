@@ -2,6 +2,9 @@
 <head>
     <title>SPK Moora</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <?php
+    include "header.php"
+    ?>
 </head>
 <body>
 <div class="container">
